@@ -1,0 +1,72 @@
+body{
+  text-align:center;
+  font-family:helvetica, arial, sans-serif;
+  text-transform:capitalize;
+}
+
+div {
+  display: inline-block;
+}
+
+button{
+  display:block;
+  margin:0 auto 1em;
+  position:relative;
+}
+
+.wrap {
+  margin-top:1em;
+  text-align:center;
+  width:100px;
+}
+
+.wrap:first-child{
+  margin-right:1em;
+}
+
+.display-box{
+  margin-top:1em;
+  white-space:nowrap;
+}
+
+.initially-hidden{
+  display:none;
+  width: 100px;
+  height: 100px;
+  background: #e61313;
+  transition:opacity 0.3s;
+  opacity:0;
+}
+
+.initially-visible {
+  display:block;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  transition:opacity 0.3s;
+}
+
+/*Presentation state classes*/
+.hide{
+  opacity:0;
+}
+
+.show{
+  opacity: 1;
+}
+
+.block{
+  display:block;
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+.inline{
+  display:inline;
+}
+
+.none{
+  display:none;
+}
